@@ -16,16 +16,16 @@ export default function Header() {
         
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-8">
-          <Link href="#services" className="hover:text-amber-500 transition">Services</Link>
-          <Link href="#gallery" className="hover:text-amber-500 transition">Gallery</Link>
-          <Link href="#team" className="hover:text-amber-500 transition">Our Team</Link>
-          <Link href="#testimonials" className="hover:text-amber-500 transition">Testimonials</Link>
-          <Link href="#contact" className="hover:text-amber-500 transition">Contact</Link>
+          <Link href="#services" className="hover:text-amber-500 transition">Priser</Link>
+          <Link href="#gallery" className="hover:text-amber-500 transition">Galleri</Link>
+          <Link href="#team" className="hover:text-amber-500 transition">Våran Team</Link>
+          <Link href="#testimonials" className="hover:text-amber-500 transition">Omdömen</Link>
+          <Link href="#contact" className="hover:text-amber-500 transition">Kontakta</Link>
         </nav>
         
         <div className="hidden md:flex items-center space-x-4">
           <FaPhone className="text-amber-500" />
-          <span className="font-semibold">(555) 123-4567</span>
+          <span className="font-semibold">0761239587</span>
         </div>
         
         {/* Mobile Menu Button */}
@@ -41,15 +41,15 @@ export default function Header() {
       {isOpen && (
         <div className="md:hidden bg-black py-4 px-4">
           <nav className="flex flex-col space-y-4">
-            <Link href="#services" className="hover:text-amber-500 transition" onClick={() => setIsOpen(false)}>Services</Link>
-            <Link href="#gallery" className="hover:text-amber-500 transition" onClick={() => setIsOpen(false)}>Gallery</Link>
-            <Link href="#team" className="hover:text-amber-500 transition" onClick={() => setIsOpen(false)}>Our Team</Link>
-            <Link href="#testimonials" className="hover:text-amber-500 transition" onClick={() => setIsOpen(false)}>Testimonials</Link>
-            <Link href="#contact" className="hover:text-amber-500 transition" onClick={() => setIsOpen(false)}>Contact</Link>
+            <Link href="#services" className="hover:text-amber-500 transition" onClick={() => setIsOpen(false)}>Priser</Link>
+            <Link href="#gallery" className="hover:text-amber-500 transition" onClick={() => setIsOpen(false)}>Galleri</Link>
+            <Link href="#team" className="hover:text-amber-500 transition" onClick={() => setIsOpen(false)}>Våran Team</Link>
+            <Link href="#testimonials" className="hover:text-amber-500 transition" onClick={() => setIsOpen(false)}>Omdömen</Link>
+            <Link href="#contact" className="hover:text-amber-500 transition" onClick={() => setIsOpen(false)}>Kontakta</Link>
           </nav>
           <div className="flex items-center mt-4 space-x-2">
             <FaPhone className="text-amber-500" />
-            <span className="font-semibold">(555) 123-4567</span>
+            <span className="font-semibold">0761239587</span>
           </div>
         </div>
       )}

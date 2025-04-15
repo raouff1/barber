@@ -6,7 +6,7 @@ import { FaScissors } from 'react-icons/fa6'
 export default function Hero() {
   return (
     <section className="relative h-[80vh] bg-gray-900 text-white">
-      {/* Background image with overlay */}
+      {}
       <div className="absolute inset-0 bg-black/60">
         <Image 
           src="/barbershop-hero.jpg" 
@@ -17,7 +17,7 @@ export default function Hero() {
         />
       </div>
 
-      {/* Content */}
+      {}
       <div className="relative z-10 h-full flex flex-col justify-center items-center text-center px-4">
         <FaScissors className="text-amber-500 text-5xl mb-4" />
         <h1 className="text-4xl md:text-6xl font-bold mb-4 text-black">
@@ -32,14 +32,14 @@ export default function Hero() {
             href="#contact" 
             className="bg-amber-500 hover:bg-amber-600 text-black font-bold py-3 px-6 rounded-lg transition duration-300"
           >
-            Book Now
+            Boka Nu
           </a>
           <a 
                 href="#services" 
                 className="bg-amber-500 hover:bg-amber-600 text-black font-bold py-3 px-6 rounded-lg transition duration-300"
               >
           
-            Our Services
+            Våran Service
           </a>
         </div>
       </div>

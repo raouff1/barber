@@ -37,7 +37,7 @@ export default function Services() {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Våran Service</h2>
           <div className="w-20 h-1 bg-amber-500 mx-auto"></div>
           <p className="mt-6 text-gray-600 max-w-2xl mx-auto">
-          Vi är välutbildade frisörer och utför allt från korta till långa frisyrer: damklippning, herrklippning, barnklippning, Slingor, Färgning av ögonbryn, Hårfärgning 
+          Vi är välutbildade frisörer och utför allt från korta till långa frisyrer: herrklippning, barnklippning, Slingor och Hårfärgning.
           </p>
         </div>
         

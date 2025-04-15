@@ -1,12 +1,12 @@
 import Image from 'next/image'
 
 const images = [
-  { id: 1, src: '/bibi.jpg', alt: 'Barber working' },
-  { id: 2, src: '/gallery2.jpg', alt: 'Haircut in progress' },
-  { id: 3, src: '/didi.jpg', alt: 'Beard trim' },
-  { id: 4, src: '/coco.jpg', alt: 'Shop interior' },
-  { id: 5, src: '/gallery5.jpg', alt: 'Customer getting shave' },
-  { id: 6, src: '/gallery6.jpg', alt: 'Finished haircut' },
+  { id: 1, src: '/bibi.jpg', alt: '' },
+  { id: 2, src: '/gallery2.jpg', alt: '' },
+  { id: 3, src: '/didi.jpg', alt: '' },
+  { id: 4, src: '/coco.jpg', alt: '' },
+  { id: 5, src: '/gallery5.jpg', alt: '' },
+  { id: 6, src: '/gallery6.jpg', alt: '' },
 ]
 
 export default function Gallery() {
@@ -14,7 +14,7 @@ export default function Gallery() {
     <section id="gallery" className="py-20 bg-gray-100">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Välkomna</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Välkommen</h2>
           <div className="w-20 h-1 bg-amber-500 mx-auto"></div>
           <p className="mt-6 text-gray-600 max-w-2xl mx-auto">
           Tillsammans skapar vi en (kort eller lång) frisyr efter Ditt hårs förutsättningar och Dina egna önskemål.

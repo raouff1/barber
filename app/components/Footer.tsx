@@ -9,33 +9,34 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold text-amber-500 mb-4">Classic Cuts</h3>
             <p className="text-gray-400">
-              Traditional barbering with modern style. Experience the perfect haircut every time.
+            Traditionell barbering med modern stil. Upplev den perfekta frisyren varje gång.
             </p>
           </div>
           
           <div>
-            <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
+            <h4 className="text-lg font-semibold mb-4">Snabba Länkar</h4>
             <ul className="space-y-2">
-              <li><Link href="#services" className="text-gray-400 hover:text-amber-500 transition">Services</Link></li>
-              <li><Link href="#gallery" className="text-gray-400 hover:text-amber-500 transition">Gallery</Link></li>
-              <li><Link href="#team" className="text-gray-400 hover:text-amber-500 transition">Our Team</Link></li>
-              <li><Link href="#testimonials" className="text-gray-400 hover:text-amber-500 transition">Testimonials</Link></li>
-              <li><Link href="#contact" className="text-gray-400 hover:text-amber-500 transition">Contact</Link></li>
+              <li><Link href="#services" className="text-gray-400 hover:text-amber-500 transition">Priser</Link></li>
+              <li><Link href="#gallery" className="text-gray-400 hover:text-amber-500 transition">Galleri</Link></li>
+              <li><Link href="#team" className="text-gray-400 hover:text-amber-500 transition">Våran Team</Link></li>
+              <li><Link href="#testimonials" className="text-gray-400 hover:text-amber-500 transition">Omdömen</Link></li>
+              <li><Link href="#contact" className="text-gray-400 hover:text-amber-500 transition">Kontakta</Link></li>
             </ul>
           </div>
           
           <div>
-            <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
+            <h4 className="text-lg font-semibold mb-4">Kontakt info</h4>
             <ul className="space-y-2 text-gray-400">
-              <li>123 Barber Street</li>
-              <li>Downtown, City</li>
-              <li>(555) 123-4567</li>
-              <li>info@classiccuts.com</li>
+              <li>Nygatan 20,
+              311 30 Falkenberg</li>
+              
+              <li>0761239587</li>
+              <li>salongdante@live.com</li>
             </ul>
           </div>
           
           <div>
-            <h4 className="text-lg font-semibold mb-4">Follow Us</h4>
+            <h4 className="text-lg font-semibold mb-4">Följ Oss</h4>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-amber-500 transition text-xl">
                 <FaFacebook />
@@ -45,17 +46,17 @@ export default function Footer() {
               </a>
             </div>
             
-            <h4 className="text-lg font-semibold mt-6 mb-4">Hours</h4>
+            <h4 className="text-lg font-semibold mt-6 mb-4">Öppet Tider</h4>
             <ul className="space-y-1 text-gray-400">
-              <li>Mon-Fri: 9am - 7pm</li>
-              <li>Sat: 9am - 5pm</li>
-              <li>Sun: Closed</li>
+              <li>Måndag - Fredag: 09:00 - 18:00</li>
+              <li>Lördag: 10:00- 17:00</li>
+              <li>Söndag: Stängt</li>
             </ul>
           </div>
         </div>
         
         <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Classic Cuts Barbershop. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Salong Dante. All rights reserved.</p>
         </div>
       </div>
     </footer>

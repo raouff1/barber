@@ -1,23 +1,23 @@
 const testimonials = [
     {
       id: 1,
-      name: "Robert Johnson",
-      role: "Regular Client",
-      content: "Best barbershop in town! Always leave looking sharp and feeling fresh. The hot towel shave is a must-try.",
+      name: "Robert Isaksson",
+      role: "Vanlig kund",
+      content: "Bästa barbershopen i stan! Låt alltid gå därifrån med att se fräsch ut och kännas fräsch. Den varma handduksrakningen är ett måste att prova.",
       rating: 5
     },
     {
       id: 2,
-      name: "Michael Smith",
-      role: "New Client",
-      content: "First time here and I'm impressed. Great attention to detail and friendly atmosphere. Will definitely be back.",
+      name: "Michael Santos",
+      role: "Ny kund",
+      content: "Första gången här och jag är imponerad. Stor uppmärksamhet på detaljer och vänlig atmosfär. Kommer definitivt tillbaka.",
       rating: 5
     },
     {
       id: 3,
-      name: "David Wilson",
-      role: "Long-time Client",
-      content: "Been coming here for years. Consistent quality and professional service every time.",
+      name: "David Halmgren",
+      role: "Långvarig kund",
+      content: "Har kommit hit i flera år. Jämn kvalitet och professionell service varje gång.",
       rating: 5
     }
   ]
@@ -27,10 +27,10 @@ const testimonials = [
       <section id="testimonials" className="py-20 bg-gray-100">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Client Testimonials</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Kundomdömen</h2>
             <div className="w-20 h-1 bg-amber-500 mx-auto"></div>
             <p className="mt-6 text-gray-600 max-w-2xl mx-auto">
-              Don't just take our word for it - hear what our clients have to say.
+            Ta inte bara vårt ord för det - lyssna på vad våra kunder har att säga.
             </p>
           </div>
           

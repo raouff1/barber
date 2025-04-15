@@ -6,8 +6,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Classic Cuts Barbershop',
-  description: 'Premium barber services in your neighborhood',
+  title: 'Salong Dante',
+  description: 'frisörtjänster i ditt närområde',
 }
 
 export default function RootLayout({

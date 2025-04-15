@@ -38,10 +38,10 @@ export default function Contact() {
     <section id="contact" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Contact Us</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Kontakta Oss</h2>
           <div className="w-20 h-1 bg-amber-500 mx-auto"></div>
           <p className="mt-6 text-gray-600 max-w-2xl mx-auto">
-            Book an appointment or ask us a question. We're here to help!
+          Boka ett möte eller ställ en fråga till oss. Vi är här för att hjälpa dig!
           </p>
         </div>
         
@@ -55,8 +55,9 @@ export default function Contact() {
                   <FaMapMarkerAlt className="text-xl" />
                 </div>
                 <div>
-                  <h4 className="font-bold mb-1">Location</h4>
-                  <p className="text-gray-600">123 Barber Street, Downtown, City</p>
+                  <h4 className="font-bold mb-1">Plats</h4>
+                  <p className="text-gray-600">Nygatan 20,
+                  311 30 Falkenberg</p>
                 </div>
               </div>
               
@@ -65,8 +66,8 @@ export default function Contact() {
                   <FaPhone className="text-xl" />
                 </div>
                 <div>
-                  <h4 className="font-bold mb-1">Phone</h4>
-                  <p className="text-gray-600">(555) 123-4567</p>
+                  <h4 className="font-bold mb-1">Telefonnummer</h4>
+                  <p className="text-gray-600">0761239587</p>
                 </div>
               </div>
               
@@ -75,18 +76,18 @@ export default function Contact() {
                   <FaClock className="text-xl" />
                 </div>
                 <div>
-                  <h4 className="font-bold mb-1">Hours</h4>
+                  <h4 className="font-bold mb-1">Öppet Tider</h4>
                   <p className="text-gray-600">
-                    Monday - Friday: 9am - 7pm<br />
-                    Saturday: 9am - 5pm<br />
-                    Sunday: Closed
+                    Måndag - Fredag: 09:00 - 18:00<br />
+                    Lördag: 10:00- 17:00<br />
+                    Söndag: Stängt
                   </p>
                 </div>
               </div>
             </div>
             
             <div className="mt-10">
-              <h4 className="font-bold mb-4">Follow Us</h4>
+              <h4 className="font-bold mb-4">Följ Oss</h4>
               <div className="flex space-x-4">
                 <a href="#" className="bg-gray-100 hover:bg-amber-500 hover:text-white w-10 h-10 rounded-full flex items-center justify-center transition duration-300">
                   <span className="sr-only">Facebook</span>
@@ -108,7 +109,7 @@ export default function Contact() {
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">Name*</label>
+                  <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">Namn*</label>
                   <input
                     type="text"
                     id="name"
@@ -135,7 +136,7 @@ export default function Contact() {
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
-                  <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">Phone</label>
+                  <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">Mobilnummer</label>
                   <input
                     type="tel"
                     id="phone"
@@ -154,18 +155,19 @@ export default function Contact() {
                     onChange={handleChange}
                     className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-500"
                   >
-                    <option value="">Select a service</option>
-                    <option value="haircut">Haircut</option>
-                    <option value="beard-trim">Beard Trim</option>
-                    <option value="hot-towel-shave">Hot Towel Shave</option>
-                    <option value="hair-color">Hair Color</option>
-                    <option value="other">Other</option>
+                    <option value="">Välj </option>
+                    <option value="maskinklippning">Maskinklippning</option>
+                    <option value="barnklippning">Barnklippning</option>
+                    <option value="herrklippning">Herrklippning</option>
+                    <option value="färga håret">Färga håret
+                    </option>
+                    <option value="annat">Annat</option>
                   </select>
                 </div>
               </div>
               
               <div>
-                <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">Message*</label>
+                <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">Meddelande*</label>
                 <textarea
                   id="message"
                   name="message"
@@ -182,7 +184,7 @@ export default function Contact() {
                 className="bg-amber-500 hover:bg-amber-600 text-black font-bold py-3 px-6 rounded-lg transition duration-300 flex items-center"
               >
                 <FaPaperPlane className="mr-2" />
-                Send Message
+                Skicka Meddelande
               </button>
             </form>
           </div>
