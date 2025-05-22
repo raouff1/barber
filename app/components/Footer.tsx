@@ -7,9 +7,9 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold text-amber-500 mb-4">Classic Cuts</h3>
+            <h3 className="text-xl font-bold text-amber-500 mb-4">Salong Dante</h3>
             <p className="text-gray-400">
-            Traditionell barbering med modern stil. Upplev den perfekta frisyren varje gång.
+              Traditionell barbering med modern stil. Upplev den perfekta frisyren varje gång.
             </p>
           </div>
           
@@ -20,16 +20,14 @@ export default function Footer() {
               <li><Link href="#gallery" className="text-gray-400 hover:text-amber-500 transition">Galleri</Link></li>
               <li><Link href="#team" className="text-gray-400 hover:text-amber-500 transition">Våran Team</Link></li>
               <li><Link href="#testimonials" className="text-gray-400 hover:text-amber-500 transition">Omdömen</Link></li>
-              <li><Link href="#contact" className="text-gray-400 hover:text-amber-500 transition">Kontakta</Link></li>
+              <li><Link href="/boka" className="text-gray-400 hover:text-amber-500 transition">Boka Nu</Link></li>
             </ul>
           </div>
           
           <div>
             <h4 className="text-lg font-semibold mb-4">Kontakt info</h4>
             <ul className="space-y-2 text-gray-400">
-              <li>Nygatan 20,
-              311 30 Falkenberg</li>
-              
+              <li>Nygatan 20, 311 30 Falkenberg</li>
               <li>0761239587</li>
               <li>salongdante@live.com</li>
             </ul>
@@ -49,7 +47,7 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mt-6 mb-4">Öppet Tider</h4>
             <ul className="space-y-1 text-gray-400">
               <li>Måndag - Fredag: 09:00 - 18:00</li>
-              <li>Lördag: 10:00- 17:00</li>
+              <li>Lördag: 10:00 - 17:00</li>
               <li>Söndag: Stängt</li>
             </ul>
           </div>
